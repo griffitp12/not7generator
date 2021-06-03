@@ -1,0 +1,28 @@
+{
+  "name": "not7generator",
+  "version": "6.8.9",
+  "description": "A function to generate a random number between 0 and 10 that isn't 7",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/griffitp12/not7generator.git"
+  },
+  "keywords": [
+    "helpful",
+    "useful",
+    "critical"
+  ],
+  "author": "Pete",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/griffitp12/not7generator/issues"
+  },
+  "homepage": "https://github.com/griffitp12/not7generator#readme",
+  "dependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^8.4.0"
+  }
+}
