@@ -1,17 +1,24 @@
 const { expect } = require('chai')
-const { not7generator } = require ('../index.js')
+const { notNumRoller } = require ('../index.js')
 
-describe("not7generator", function () {
-    it("should return a number that isn't 7", () => {
-        let num = not7generator()
-        expect(num).to.not.equal(7)
+describe("notNumRoller", function () {
+    it("should return a number that isn't the given num", () => {
+        let res = notNumRoller(7)
+        let roll = res[0] + res[1]
+        expect(roll).to.not.equal(7)
     })
-    it("really should never return 7", () => {
-        let arrFullOfNot7s = []
+    it("really should never return the given num", () => {
+        let arrFullOfNot9s = []
+        let res = []
         for (let i = 0; i < 200; i++) {
-            arrFullOfNot7s.push(not7generator())
+            arrFullOfNot9s.push(notNumRoller(9))
         }
-        let bool = arrFullOfNot7s.includes(7)
+        for (let arr of arrFullOfNot9s) {
+            let roll = arr[0] + arr[1];
+            res.push(roll)
+        }
+        console.log(res)
+        let bool = res.includes(9)
         expect(bool).to.equal(false)
     })
 })
