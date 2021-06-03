@@ -1,5 +1,5 @@
 
-const notNumRoller = (num = 7) => {
+const notNumRoller = (num) => {
     let roll1 = 0
     let roll2 = num
     let diceArr = []
