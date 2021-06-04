@@ -23,6 +23,7 @@
   "homepage": "https://github.com/griffitp12/notNumRoller#readme",
   "dependencies": {
     "chai": "^4.3.4",
-    "mocha": "^8.4.0"
+    "mocha": "^8.4.0",
+    "np": "^7.5.0"
   }
 }
