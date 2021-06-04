@@ -1,6 +1,6 @@
 {
   "name": "notNumRoller",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "A function to generate two dice rolls that DON'T add up to a given number",
   "main": "index.js",
   "scripts": {
@@ -25,5 +25,8 @@
     "chai": "^4.3.4",
     "mocha": "^8.4.0",
     "np": "^7.5.0"
-  }
+  },
+  "np": {
+		"yarn": false
+	}
 }
