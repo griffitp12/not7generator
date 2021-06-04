@@ -1,5 +1,5 @@
 const { expect } = require('chai')
-const { notNumRoller } = require ('../index.js')
+const { notNumRoller } = require ('../src/index')
 
 describe("notNumRoller", function () {
     it("should return a number that isn't the given num", () => {
@@ -17,7 +17,6 @@ describe("notNumRoller", function () {
             let roll = arr[0] + arr[1];
             res.push(roll)
         }
-        console.log(res)
         let bool = res.includes(9)
         expect(bool).to.equal(false)
     })
