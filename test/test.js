@@ -1,5 +1,5 @@
 const { expect } = require('chai')
-const { notNumRoller } = require ('../src/index')
+const { notNumRoller } = require ('../index')
 
 describe("notNumRoller", function () {
     it("should return a number that isn't the given num", () => {
