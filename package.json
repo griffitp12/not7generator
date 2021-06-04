@@ -1,7 +1,7 @@
 {
   "name": "notNumRoller",
   "version": "0.0.0",
-  "description": "A function to generate a random number between 0 and 10 that isn't 7",
+  "description": "A function to generate two dice rolls that DON'T add up to a given number",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
@@ -23,7 +23,6 @@
   "homepage": "https://github.com/griffitp12/notNumRoller#readme",
   "dependencies": {
     "chai": "^4.3.4",
-    "mocha": "^8.4.0",
-    "np": "^7.5.0"
+    "mocha": "^8.4.0"
   }
 }
